@@ -1,0 +1,6 @@
+autogen/
+GNU ARM v12.2.1 - Default/
+.metadata/
+*.axf
+*.hex
+*.bin
