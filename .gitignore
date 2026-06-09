@@ -1,6 +1,9 @@
-autogen/
 GNU ARM v12.2.1 - Default/
+autogen/
 .metadata/
+.pdm/
 *.axf
 *.hex
 *.bin
+*.out
+*.map
