@@ -35,6 +35,7 @@ component:
 - {id: bluetooth_feature_gatt_server}
 - {id: bluetooth_feature_legacy_advertiser}
 - {id: bluetooth_feature_legacy_scanner}
+- {id: bluetooth_feature_power_control}
 - {id: bluetooth_feature_sm}
 - {id: bluetooth_feature_system}
 - {id: bluetooth_stack}
@@ -44,12 +45,15 @@ component:
 - {id: component_catalog}
 - {id: gatt_configuration}
 - {id: gatt_service_device_information}
+- {id: gatt_service_rht}
 - {id: in_place_ota_dfu}
 - instance: [vcom]
   id: iostream_usart
 - {id: mpu}
 - {id: rail_util_pti}
 - {id: sensor_rht}
+- instance: [led0]
+  id: simple_led
 other_file:
 - {path: image/readme_img0.png}
 - {path: image/readme_img1.png}
